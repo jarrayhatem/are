@@ -1,0 +1,2 @@
+Invoking command in '/home/pi/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/diffdrive_arduino
+Invoked command in '/home/pi/ros2_ws/build/diffdrive_arduino' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/diffdrive_arduino

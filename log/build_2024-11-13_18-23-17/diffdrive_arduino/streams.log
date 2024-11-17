@@ -1,0 +1,35 @@
+[0.064s] Invoking command in '/home/pi/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/diffdrive_arduino
+[0.402s] -- The C compiler identification is GNU 11.4.0
+[0.728s] -- The CXX compiler identification is GNU 11.4.0
+[0.762s] -- Detecting C compiler ABI info
+[1.116s] -- Detecting C compiler ABI info - done
+[1.146s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.148s] -- Detecting C compile features
+[1.150s] -- Detecting C compile features - done
+[1.165s] -- Detecting CXX compiler ABI info
+[1.561s] -- Detecting CXX compiler ABI info - done
+[1.599s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.601s] -- Detecting CXX compile features
+[1.602s] -- Detecting CXX compile features - done
+[1.637s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.455s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.319s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[3.319s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[3.320s]   asked CMake to find a package configuration file provided by "serial", but
+[3.320s]   CMake did not find one.
+[3.320s] 
+[3.321s]   Could not find a package configuration file provided by "serial" with any
+[3.321s]   of the following names:
+[3.321s] 
+[3.322s]     serialConfig.cmake
+[3.322s]     serial-config.cmake
+[3.322s] 
+[3.323s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[3.324s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[3.325s]   provides a separate development package or SDK, be sure it has been
+[3.325s]   installed.
+[3.326s] 
+[3.326s] [0m
+[3.327s] -- Configuring incomplete, errors occurred!
+[3.327s] See also "/home/pi/ros2_ws/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[3.335s] Invoked command in '/home/pi/ros2_ws/build/diffdrive_arduino' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/diffdrive_arduino

@@ -1,0 +1,22 @@
+[0.066s] Invoking command in '/home/pi/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/diffdrive_arduino
+[0.116s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.967s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.968s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[0.968s]   asked CMake to find a package configuration file provided by "serial", but
+[0.968s]   CMake did not find one.
+[0.969s] 
+[0.969s]   Could not find a package configuration file provided by "serial" with any
+[0.970s]   of the following names:
+[0.970s] 
+[0.971s]     serialConfig.cmake
+[0.972s]     serial-config.cmake
+[0.972s] 
+[0.972s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[0.973s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[0.973s]   provides a separate development package or SDK, be sure it has been
+[0.974s]   installed.
+[0.974s] 
+[0.975s] [0m
+[0.975s] -- Configuring incomplete, errors occurred!
+[0.977s] See also "/home/pi/ros2_ws/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[0.978s] Invoked command in '/home/pi/ros2_ws/build/diffdrive_arduino' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/diffdrive_arduino
